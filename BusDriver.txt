@@ -189,6 +189,8 @@ WHILE TRUE
                                 0AF8: "[DEBUG] Desired speed: %.1f" 4@
                             END
 
+                            WAIT 0
+
                             // END UPDATE 2.0
                             
                             // printf "%f" 10 5@
@@ -201,12 +203,12 @@ WHILE TRUE
                             //     wait 500
                             // END
                             
-                            // IF AND
-                            //     0100:   actor $PLAYER_ACTOR in_sphere 496.17 -1282.56 15.63 radius 7.0 7.0 7.0 sphere 0 in_car 
-                            //     5@ > 6.0
-                            // THEN
-                            //     0AB1: @BRAKE 0
-                            // END  
+                            IF AND
+                                0100:   actor $PLAYER_ACTOR in_sphere 496.17 -1282.56 15.63 radius 7.0 7.0 7.0 sphere 0 in_car 
+                                5@ > 6.0
+                            THEN
+                               0AB1: @BRAKE 0
+                            END  
                             
                             IF
                                 key_down 103
