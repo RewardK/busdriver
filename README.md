@@ -10,7 +10,7 @@ mesajul cum ca ai primit banii. Va astepta acolo cat este nevoie (uneori si 1-2 
 /startbusdriver - porneste cursa (dupa ce te-ai urcat in autobuz).<br>
 /vloop - opreste bucla (se opreste dupa ce termina tura actuala).<br>
 Daca vrei control manual tine apasata tasta NUMPAD 7 si condu din WASD.<br>
-Se opreste automat cand te dai jos din autobuz. Daca vrei sa nu te dai jos, apasa tasta P!<br>
+Se opreste automat cand te dai jos din autobuz. Daca vrei sa nu te dai jos, apasa tasta F12!<br>
 ------ <br>
 <br>
 * Contact discord username: georege<br>
