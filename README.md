@@ -15,3 +15,8 @@ Se opreste automat cand te dai jos din autobuz. Daca vrei sa nu te dai jos, apas
 <br>
 * Contact discord username: georege<br>
 * Fac si coduri / moduri la cerere. Pretul incepe de la 20.000 RON. Daca esti interesat ma poti contacta pe discord.
+<br>
+<br>
+Dati paste la ambele fisiere din acest repo in folderul CLEO al jocului.
+Aveti nevoie de CLEO & SAMPFUNCS. Testat pe SA:MP 0.3.7 R1. Daca intampini probleme contacteaza-ma pe discord.<br>
+Probabil nu va mai primi vreodata update-uri in viitor.
