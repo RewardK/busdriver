@@ -180,6 +180,7 @@ WHILE TRUE
                                 $WAIT_FOR_CASH = FALSE
                                 // 0AF8: "{FF0000}DEBUG:{FFFFFF} primit banii" -1
                                 0ACD: show_text_highpriority "~G~MERG LA URMATORUL CHECKPOINT...~W~" time 5000
+                                0AF8: "[DEBUG] Desired speed: %.1f" 4@
                                 // say "%s" 22@v
                             END
 
@@ -189,7 +190,7 @@ WHILE TRUE
                                 0AF8: "[DEBUG] Desired speed: %.1f" 4@
                             END
 
-                            WAIT 0
+                            // WAIT 0
 
                             // END UPDATE 2.0
                             
