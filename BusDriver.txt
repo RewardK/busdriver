@@ -175,6 +175,7 @@ WHILE TRUE
                             IF OR
                                 0AD4: $NOT_USED = scan_string 20@ format "Ai primit %s. Mergi la urmatorul checkpoint." 22@v
                                 0AD4: $NOT_USED = scan_string 20@ format "SKIN BONUS: Nu ai fost norocos de data asta %s." 22@v
+                                0AD4: $NOT_USED = scan_string 20@ format "SKIN BONUS: Ai obtinut un skill point extra pentru jobul %s." 22@v
                             THEN
                                 wait 0
                                 
