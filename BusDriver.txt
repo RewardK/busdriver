@@ -172,8 +172,9 @@ WHILE TRUE
                             0AC8: 21@ = allocate_memory_size 260 
                             0B75: samp get_chat_string 99 text_to 20@ prefix_to 21@ color_to $NOT_USED_VAR prefix_color_to $NOT_USED_VAR  
 
-                            IF
+                            IF OR
                                 0AD4: $NOT_USED = scan_string 20@ format "Ai primit %s. Mergi la urmatorul checkpoint." 22@v
+                                0AD4: $NOT_USED = scan_string 20@ format "SKIN BONUS: Nu ai fost norocos de data asta %s." 22@v
                             THEN
                                 wait 0
                                 
